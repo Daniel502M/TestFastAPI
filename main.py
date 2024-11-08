@@ -17,3 +17,4 @@ def get_all_posts():
 
 print("Hello Samvel and Edmond, how are you?")
 print("Today is sunny")
+print("I am working now")
