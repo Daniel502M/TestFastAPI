@@ -16,5 +16,10 @@ def get_all_posts():
     return []
 
 print("Hello Samvel and Edmond, how are you?")
+print("What are you doing now?")
 print("Today is sunny")
 print("I am working now")
+
+@app.get("/fine")
+def get_text():
+    return "fine"
